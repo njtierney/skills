@@ -1,0 +1,20 @@
+{
+  "name": "njtierney-skills",
+  "owner": {
+    "name": "Nicholas Tierney",
+    "email": "nicholas.tierney@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills and agents from Nick Tierney, for R, Quarto, and blogging workflows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "blogdown-to-quarto",
+      "source": "./blogdown-to-quarto",
+      "strict": false,
+      "description": "Migrate blogdown/hugodown (Hugo) R blogs to Quarto: agent + skill covering theme replication, sitemap-validated URL preservation, and GitHub Pages deployment, plus a standalone migration script.",
+      "version": "0.1.0"
+    }
+  ]
+}
