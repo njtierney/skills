@@ -25,6 +25,25 @@ references), a delegated `migrate` agent, and a standalone
 [`migrate_posts.R`](blogdown-to-quarto/skills/blogdown-to-quarto/scripts/migrate_posts.R)
 script. See the [plugin README](blogdown-to-quarto/README.md).
 
+### [r-analysis](r-analysis/)
+
+House style for R analysis projects. Two skills so far:
+**targets-workflow** — structure an R analysis as a `targets` pipeline
+(layout, `tar_assign()` style, file targets, the grammar of a readable plan,
+workspace debugging, `crew`) — and **code-comments** — write fewer, better
+comments (the three-stage test, and an audit pass for comments already
+written). Conventions distilled from
+[tflow](https://github.com/MilesMcBain/tflow), the
+[targets manual](https://books.ropensci.org/targets/), and real pipelines.
+
+```
+/plugin install r-analysis@njtierney-skills
+```
+
+See the [plugin README](r-analysis/README.md), including how these relate to
+their not-yet-published sibling skills and to the knowledge stores in
+[`stores/`](stores/).
+
 ## License
 
 MIT © Nicholas Tierney
