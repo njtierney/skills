@@ -27,22 +27,31 @@ script. See the [plugin README](blogdown-to-quarto/README.md).
 
 ### [r-analysis](r-analysis/)
 
-House style for R analysis projects. Two skills so far:
-**targets-workflow** — structure an R analysis as a `targets` pipeline
-(layout, `tar_assign()` style, file targets, the grammar of a readable plan,
-workspace debugging, `crew`) — and **code-comments** — write fewer, better
-comments (the three-stage test, and an audit pass for comments already
-written). Conventions distilled from
-[tflow](https://github.com/MilesMcBain/tflow), the
+House style for R analysis projects — four interlocking skills that layer:
+**r-project-conventions** (the envelope: `conflicted`, `fs`, `air`, layout),
+**r-function-design** (function internals: `check_*` functions,
+decomposition), **targets-workflow** (the pipeline: `tar_assign()` style,
+file targets, the grammar of a readable plan, workspace debugging, `crew`),
+and **code-comments** (the three-stage test, plus an audit pass). Distilled
+from [tflow](https://github.com/MilesMcBain/tflow), the
 [targets manual](https://books.ropensci.org/targets/), and real pipelines.
 
 ```
 /plugin install r-analysis@njtierney-skills
 ```
 
-See the [plugin README](r-analysis/README.md), including how these relate to
-their not-yet-published sibling skills and to the knowledge stores in
-[`stores/`](stores/).
+See the [plugin README](r-analysis/README.md), including the knowledge stores
+in [`stores/`](stores/) that two of the skills reach for.
+
+### [reprex](reprex/)
+
+Write minimal reproducible examples for R bug reports and GitHub issues —
+lead with the code, the `.R` file as source of truth, minimality as a
+discipline.
+
+```
+/plugin install reprex@njtierney-skills
+```
 
 ## License
 

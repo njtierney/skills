@@ -15,6 +15,7 @@ Planned scripts, in priority order:
 | store | source | used by |
 |---|---|---|
 | `targets` | books.ropensci.org/targets (user manual) | targets-workflow |
+| `r-design` | design.tidyverse.org (Tidy Design Principles) | r-function-design |
 | `geotargets` | geotargets docs | targets-workflow (spatial) |
 | `targets-reference` | docs.ropensci.org/targets + tarchetypes function reference | targets-workflow |
 | `targets-design` | books.ropensci.org/targets-design (package internals) | contributing to targets |

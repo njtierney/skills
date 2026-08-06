@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Claude Code skills and agents from Nick Tierney, for R, Quarto, and blogging workflows.",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
@@ -20,7 +20,14 @@
       "name": "r-analysis",
       "source": "./r-analysis",
       "strict": false,
-      "description": "House style for R analysis projects: structure an analysis as a targets pipeline (layout, tar_assign, file targets, the grammar of a readable plan, workspace debugging, crew) and write fewer, better code comments (three-stage test plus an audit pass).",
+      "description": "House style for R analysis projects, four interlocking skills: project conventions (conflicted, fs, air, layout), function design (check_ functions, decomposition), targets pipelines (tar_assign, file targets, workspace debugging, crew), and code comments (three-stage test plus audit pass).",
+      "version": "0.2.0"
+    },
+    {
+      "name": "reprex",
+      "source": "./reprex",
+      "strict": false,
+      "description": "Write minimal reproducible examples for R bug reports and GitHub issues: lead with the code, the .R file as source of truth, minimality as a discipline.",
       "version": "0.1.0"
     }
   ]
